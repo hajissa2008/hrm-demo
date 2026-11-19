@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/hrm-demo/favicon.svg" />
+    <!-- viewport-fit=cover lets the layout reach under a notch and a home indicator; the safe-area
+         insets in mobile.css then keep content out from under them. Without it an iPhone letterboxes
+         the page and the app reads as a web page in a frame rather than as an app. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Brand colour for the mobile browser chrome, so the portal's address bar matches the
+         app rather than defaulting to the browser's own grey. Both themes are declared so a
+         phone in dark mode gets the darker brand step instead of the light one. -->
+    <meta name="theme-color" content="#4a6878" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141618" media="(prefers-color-scheme: dark)" />
+    <!-- Installed-app metadata.
+         The manifest is what makes Android offer "Install"; iOS ignores most of it and reads the
+         apple- tags below instead, which is why both sets are here. apple-mobile-web-app-capable is
+         deprecated in favour of mobile-web-app-capable and still the only one iOS honours, so both
+         are declared rather than choosing the tidy one and losing the standalone window. -->
+    <link rel="manifest" href="/hrm-demo/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/hrm-demo/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Almaz Retail Group" />
+    <!-- "default" keeps dark text on the light status bar. black-translucent would put the clock
+         over our own header, which on this layout lands on the tenant name. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>HR Suite — Demo</title>
+    <script type="module" crossorigin src="/hrm-demo/assets/index-DP6FfeRh.js"></script>
+    <link rel="stylesheet" crossorigin href="/hrm-demo/assets/index-CzCN6lgm.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

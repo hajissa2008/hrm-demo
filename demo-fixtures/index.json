@@ -1,0 +1,46 @@
+{
+  "capturedAtUtc": "2026-11-19T06:26:40.953Z",
+  "apiVersion": "1.0.0",
+  "personas": [
+    {
+      "key": "admin",
+      "label": "HR administrator",
+      "userName": "admin@demo.hrm",
+      "displayName": "HRMS Admin",
+      "tenantName": "Almaz Retail Group (Demo)",
+      "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
+      "file": "admin.json",
+      "routeCount": 115
+    },
+    {
+      "key": "payroll",
+      "label": "Payroll officer",
+      "userName": "payroll@demo.hrm",
+      "displayName": "Payroll Officer",
+      "tenantName": "Almaz Retail Group (Demo)",
+      "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
+      "file": "payroll.json",
+      "routeCount": 55
+    },
+    {
+      "key": "manager",
+      "label": "Line manager",
+      "userName": "manager@demo.hrm",
+      "displayName": "Sales Manager",
+      "tenantName": "Almaz Retail Group (Demo)",
+      "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
+      "file": "manager.json",
+      "routeCount": 104
+    },
+    {
+      "key": "employee",
+      "label": "Employee (self-service)",
+      "userName": "ahmed@demo.hrm",
+      "displayName": "Ahmed Al-Otaibi",
+      "tenantName": "Almaz Retail Group (Demo)",
+      "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
+      "file": "employee.json",
+      "routeCount": 38
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32" role="img" aria-label="HR Suite">
+  <!-- The demo's own mark, matching demo-logo.svg. Deliberately not any real company's
+       logo: the data and the company in this demonstration are invented. -->
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <path d="M21 18v28M43 18v28M21 32h22" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>
