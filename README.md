@@ -13,16 +13,17 @@ demonstration. No figure here describes any real person or company.
 
 ## Signing in
 
-Use the bar at the bottom of the page to switch between four people:
+Use the bar at the bottom of the page to switch between five people. Each sees only what their role allows:
 
 | Person | Shows |
 |---|---|
-| HR administrator | The organisation, employees and settings |
-| Payroll officer | Pay periods, payslips, the validation run |
-| Line manager | A team, its approval queue |
-| Employee | Self-service: own profile, payslip, leave, attendance |
+| HR administrator | Everything, including settings, users and roles |
+| HR manager | People, attendance, leave and requests - and signing off attendance corrections |
+| Payroll officer | Employees, attendance and payroll only |
+| Line manager | Their own self-service and their team; no employee directory, payroll or administration |
+| Employee | Self-service only |
 
-Four rather than one because the thing worth seeing is a request raised by one person and decided
+Several rather than one because the thing worth seeing is a request raised by one person and decided
 by another. Raise leave as the employee, then switch to the manager and approve it — that flow
 works end to end. Other actions say plainly that they cannot be saved rather than pretending.
 

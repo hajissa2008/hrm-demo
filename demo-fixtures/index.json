@@ -1,5 +1,5 @@
 {
-  "capturedAtUtc": "2026-11-19T06:26:40.953Z",
+  "capturedAtUtc": "2026-11-19T11:48:36.367Z",
   "apiVersion": "1.0.0",
   "personas": [
     {
@@ -10,7 +10,17 @@
       "tenantName": "Almaz Retail Group (Demo)",
       "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
       "file": "admin.json",
-      "routeCount": 115
+      "routeCount": 132
+    },
+    {
+      "key": "hr",
+      "label": "HR manager",
+      "userName": "nora@demo.hrm",
+      "displayName": "Nora Al-Harbi",
+      "tenantName": "Almaz Retail Group (Demo)",
+      "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
+      "file": "hr.json",
+      "routeCount": 149
     },
     {
       "key": "payroll",
@@ -20,7 +30,7 @@
       "tenantName": "Almaz Retail Group (Demo)",
       "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
       "file": "payroll.json",
-      "routeCount": 55
+      "routeCount": 40
     },
     {
       "key": "manager",
@@ -30,7 +40,7 @@
       "tenantName": "Almaz Retail Group (Demo)",
       "tenantNameAr": "مجموعة ألماز للتجزئة (تجريبي)",
       "file": "manager.json",
-      "routeCount": 104
+      "routeCount": 45
     },
     {
       "key": "employee",
